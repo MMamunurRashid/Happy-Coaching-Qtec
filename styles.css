@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
 body {
   max-width: 1440px;
   margin: 0 auto 0 auto;
@@ -25,7 +25,7 @@ body {
 }
 .nav-button {
   border-radius: 4px;
-  color: #FFF;
+  color: #fff;
   font-weight: 600;
   font-size: 14px;
   background: #20ad96;
@@ -40,22 +40,22 @@ body {
 
 /* home banner  */
 .home-banner {
-    padding-top: 55px;
-    background: #FAF8F6;
+  padding-top: 55px;
+  background: #faf8f6;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .banner-svg {
-    margin-left: -51px;
+  margin-left: -51px;
 }
-.banner-content{
-    margin-left: 85px;
+.banner-content {
+  margin-left: 85px;
 }
 .banner-content p {
   color: var(--Gray-800, #4a556c);
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -64,37 +64,134 @@ body {
   margin-bottom: 6px;
   margin-top: 68px;
 }
-.banner-content h1{
-    width: 520px;
-    color: #333461;
-    font-family: 'Kumbh Sans', sans-serif;
-font-size: 72px;
-font-style: normal;
-font-weight: 800;
-line-height: 120%; /* 86.4px */
-letter-spacing: -0.72px;
-margin: 0;
+.banner-content h1 {
+  width: 520px;
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 86.4px */
+  letter-spacing: -0.72px;
+  margin: 0;
 }
-.banner-content h6{
-    width: 545px;
-    color: #4A556C;
-font-family: "Kumbh Sans";
-font-size: 18px;
+.banner-content h6 {
+  width: 545px;
+  color: #4a556c;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  margin: 18px 0 18px 0;
+}
+.banner-content button {
+  margin-bottom: 140px;
+}
+.banner-image {
+  margin: 28px auto -55px auto;
+}
+.banner-image img {
+  width: 462px;
+  height: 603px;
+  flex-shrink: 0;
+}
+
+.intro-section {
+  margin: 96px 150px 61px 150px;
+}
+
+.intro-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 74px;
+}
+.intro-head h1 {
+  width: 492px;
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.48px;
+  margin: 0;
+}
+.intro-head p {
+  width: 468px;
+  color: #4a556c;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 147.059% */
+}
+
+.intro-card-div {
+  display: flex;
+}
+.intro-card {
+  padding: 40px;
+}
+.intro-card h1 {
+  margin-bottom: 0;
+  margin-top: 32px;
+}
+.testimonial-section{
+  padding: 120px 14px  220px 150px;
+  background: #FAF8F6;
+}
+.testimonial-heading {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  width: 530px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.48px;
+}
+.testimonial-card-div{
+  display: flex;
+  gap: 37px;
+}
+
+.testimonial-card{
+  display: inline-flex;
+padding: 48px;
+flex-direction: column;
+align-items: flex-start;
+gap: 15px;
+background: var(--White, #FFF);
+box-shadow: 0px 96px 96px 0px rgba(177, 186, 200, 0.12);
+}
+.testimonial-card p{
+  margin: 0;
+  color: #4A556C;
+font-family: 'Kumbh Sans', sans-serif;
+font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: 160%; /* 28.8px */
-margin:  18px 0 18px 0;
+line-height: 32px; /* 133.333% */
+letter-spacing: -0.72px;
 }
-.banner-content button{
-    margin-bottom: 140px;
+.testimonial-card h4{
+  margin: 0;
+  color: #333461;
+font-family: 'Kumbh Sans', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: -0.72px;
 }
-.banner-image{
-    margin: 28px auto -55px auto;
 
+.testimonial-card img {
+  width: 69px;
+height: 70px;
+border-radius: 88px;
 }
-.banner-image  img{
-    width: 462px;
-height: 603px;
-flex-shrink: 0;
-
+.testimonial-star{
+  
 }
